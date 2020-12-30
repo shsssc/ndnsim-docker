@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 RUN export DEBIAN_FRONTEND=noninteractive &&\
 	apt-get update && apt-get install -y xterm sudo xfce4 desktop-base xfce4-terminal build-essential libsqlite3-dev libboost-all-dev\
-	libssl-dev git python-setuptools castxml git gir1.2-goocanvas-2.0 gir1.2-gtk-3.0 nano leafpad \
+	libssl-dev git python-setuptools castxml git gir1.2-goocanvas-2.0 gir1.2-gtk-3.0 nano gedit \
 	libgirepository1.0-dev python3-dev python3-gi python3-gi-cairo python3-pip python3-pygraphviz python3-pygccxml && \
 	apt-get clean
 
